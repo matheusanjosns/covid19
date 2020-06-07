@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Tudo sobre o COVID-19</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Mateus Durval, Matheus Anjos, Abrãao, Ednaldo">
+		<meta name="keywords" content="Tudo sobre o novo corona vírus">
+		<meta name="description" content="Site especializado no novo corona vírus">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,700,900&display=swap" rel="stylesheet">
+		<link href="fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+		<link rel="icon" type="text/css" href="img/saude-icon.png">
+	</head>
+	<body>
+		<header class="cabecalho">
+			<a href="index.html"><h1 class="logo">COVID-19</h1></a>
+			<button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button>
+			<nav class="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Tratamentos</a></li>
+					<li><a href="#">Como se cuidar</a></li>
+					<li><a href="#">Contatos</a></li>
+				</ul>
+			</nav>
+			<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<script>
+				$(".btn-menu").click(function() {
+					$(".menu").show();
+				})
+				$(".btn-close").click(function() {
+					$(".menu").hide();
+				})
+			</script>
+		</header>
+
+		<div class="banner">
+			<div class="title">
+				<h2 style="color: #d83c21; text-align: center;">COVID-19</h2>
+				<h3 style="color: black; font-weight: bold;">Saiba como se cuidar diante do novo corona vírus!
+					Receba dicas de prevenção, quais são os riscos e qual o tramento devem ser feitos!
+				</h3>
+			</div>
+
+			<div class="buttons">
+				<button class="btn-cadastrar">Tratamentos<i class="fa fa-arrow-circle-right"></i></button>
+				<button class="btn-sobre">Como se prevenir?<i class="fa fa-question-circle"></i></button>
+			</div>
+		</div>
+
+		<main class="principal">
+			<article class="servico">
+				<a href="index.html"><img src="img/article1.jpg"></a>
+				<div class="inner">
+					<a href="index.html">Sobre o COVID-19</a>
+					<h4></h4>
+					<p>A COVID-19 é uma doença causada pelo coronavírus SARS-CoV-2, que apresenta um quadro clínico que varia de infecções assintomáticas a quadros respiratórios graves. De acordo com a Organização Mundial de Saúde (OMS), a maioria dos pacientes com COVID-19 (cerca de 80%) podem ser assintomáticos e cerca de 20% dos casos podem requerer atendimento hospitalar por apresentarem dificuldade respiratória e desses casos aproximadamente 5% podem necessitar de suporte para o tratamento de insuficiência respiratória (suporte ventilatório).</p>
+				</div>
+			</article>
+
+			<article class="servico">
+				<a href="index.html"><img src="img/article2.jpg"></a>
+				<div class="inner">
+					<a href="index.html">Novas orientações do uso da Máscara</a>
+					<h4>Uso de Máscaras</h4>
+					<p>OMS divulga novas orientações para uso e fabricação de máscaras de pano contra a Covid-19.
+						Entidade recomenda que todos usem máscaras em áreas onde o distanciamento social não é possível. Uso da máscara não dispensa, entretanto, outras medidas de saúde pública, como o distanciamento social.
+					</p>
+				</div>
+			</article>
+		</main>
+
+		<section class="newsletter">
+			<h2>Inscreva-se agora e receba discas de prevenção!</h2>
+			<h3>Receba alertas, estatísticas e como se previnir do novo corona vírus, faça já o seu cadastro.</h3>
+			<input type="email" name="email" placeholder="Seu email">
+			<button>Cadastrar</button>
+		</section>
+
+		<footer class="rodape"> 
+			<div class="social-icons">
+				<a href="index.html"><i class="fab fa-facebook fa-lg"></i></a>
+				<a href="index.html"><i class="fab fa-instagram fa-lg"></i></a>
+				<a href="index.html"><i class="fab fa-google fa-lg"></i></a>
+				<a href="index.html"><i class="fas fa-envelope-open fa-lg"></i></a>
+				<a href="index.html"><i class="fab fa-twitter fa-lg"></i></a>
+				<p class="copyright">Copyright © Equipe UNIFACS 2020. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+	</body>
+</html>
